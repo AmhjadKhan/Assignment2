@@ -1,0 +1,140 @@
+body{
+    font-family: 'work-sen','sans-serif';
+}
+/* header styles  */
+header{
+    background-color: aliceblue;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navtitle{
+    font-size: 1.6rem;
+}
+.navtitle span{
+    color: blueviolet;
+}
+nav div{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* heder section finish  */
+.row{
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+.row .left{
+    overflow: hidden;
+}
+.row .left .card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.card h2{
+    word-spacing: 20px;
+    font-size: 2rem;
+}
+.card h1{
+    font-size: 3rem;
+    font-weight: 20px;
+    color: #F948B2;
+}
+.btn1{
+    background-color: #F948B2;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-top: 50px;
+}
+.btn2{
+    background-color: #5757dc;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 140px;
+    margin-top: 50px;  
+}
+.row .right{
+    display: flex;
+    align-items: center;
+}
+.row .right .container{
+    padding-left: 20px;   
+}
+.row .right .container img{
+    height: 500px;
+}
+/* finish banner main1  */
+.row1{
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+.row .left1{
+    overflow: hidden;
+}
+.row .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.row .right1{
+    display: flex;
+    align-items: center;
+}
+.row .right1 .container1{
+    padding-left: 20px;   
+}
+.row .right .container1{
+    height: 500px;
+}
+@media (max-width: 991px){
+    row .right .container{
+        padding-left: 0;
+    }
+    row .right1 .container1{
+        padding-left: 0;
+    }
+}
+@media (max-width: 768px){
+    .row{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .row1{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}
