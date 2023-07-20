@@ -205,7 +205,6 @@ section{
 
  /* finish row2 2  */
  
-   /* finish main3  */
    .row4{
     width: 120%;
     max-width: 1370px;
@@ -260,7 +259,7 @@ section{
     margin: 100px;
 }
 .containers div:hover{
-   border: 2px solid rgb(106, 33, 33);
+   border: 2px solid rgb(211, 19, 147);
    border-radius: 70px;
 }
 .containers .one{
@@ -278,12 +277,7 @@ section{
 .two p{
     margin: 10px;
 }
-/* .two p:hover{
-    border: 2px solid rgb(188, 64, 64);
-    border-radius: 20px;
-    background-color:rgb(123, 62, 64)
-} */
-/* finish container section  */
+
 footer{
     background-color: #111;
     margin-top: 100px;
@@ -335,7 +329,10 @@ footer{
     .row1 .right1 .content1{
         padding-left: 0px;
     }
-    .section{
+    section{
+        padding-left: 0;
+    }
+    .containerese{
         padding-left: 0;
     }
     .row3 .right3 .content3{
@@ -359,6 +356,10 @@ footer{
         grid-template-columns: 1fr;
     }
     .row1{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .containerese{
         width: 90%;
         grid-template-columns: 1fr;
     }
